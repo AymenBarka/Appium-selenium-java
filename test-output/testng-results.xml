@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-18T10:40:57 WAT" name="Suite1" finished-at="2023-07-18T10:40:58 WAT" duration-ms="111">
+    <groups>
+      <group name="regression">
+        <method signature="Login.checkGeneralUi()[pri:0, instance:testngGroups.Login@5f9b2141]" name="checkGeneralUi" class="testngGroups.Login"/>
+        <method signature="Login.loginWithCorrectCreds()[pri:0, instance:testngGroups.Login@5f9b2141]" name="loginWithCorrectCreds" class="testngGroups.Login"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Login.loginWithCorrectCreds()[pri:0, instance:testngGroups.Login@5f9b2141]" name="loginWithCorrectCreds" class="testngGroups.Login"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-07-18T10:40:57 WAT" name="Test01" finished-at="2023-07-18T10:40:58 WAT" duration-ms="111">
+      <class name="testngGroups.Login">
+        <test-method signature="checkGeneralUi()[pri:0, instance:testngGroups.Login@5f9b2141]" started-at="2023-07-18T10:40:57 WAT" name="checkGeneralUi" finished-at="2023-07-18T10:40:58 WAT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGeneralUi -->
+        <test-method signature="loginWithCorrectCreds()[pri:0, instance:testngGroups.Login@5f9b2141]" started-at="2023-07-18T10:40:58 WAT" name="loginWithCorrectCreds" finished-at="2023-07-18T10:40:58 WAT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectCreds -->
+      </class> <!-- testngGroups.Login -->
+    </test> <!-- Test01 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

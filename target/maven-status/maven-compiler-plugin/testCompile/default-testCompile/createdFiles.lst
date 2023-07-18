@@ -1,0 +1,15 @@
+apilearning\RecordVideo.class
+utils\MobileCapabilityTypeEx.class
+apilearning\SetValuePOM.class
+apilearning\TakingScreenshot.class
+appiumtest\LaunchApp.class
+models\pages\HomePage.class
+apilearning\ClickOnElement.class
+apilearning\GetValue.class
+apilearning\HandleDropDown.class
+apilearning\SetValueWithPomMainInteractionsMethods.class
+apilearning\HandleMultipleMatchedElements.class
+utils\AppiumDriverEx.class
+apilearning\SwiperVertically.class
+apilearning\HandleToggleButton.class
+models\pages\LoginPages.class
